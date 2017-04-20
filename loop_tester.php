@@ -50,7 +50,6 @@
             <option value="5">5</option>
             <option value="6">6</option> ! -->
 
-	<select name="number_to_roll">
 	<?php for ($i = 1; $i < 7; $i++) : ?>
 	    <option value="<?php echo $i; ?>"><?php echo $i; ?></option>
 	<?php endfor; ?>
