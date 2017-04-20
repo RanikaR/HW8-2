@@ -52,7 +52,7 @@
 
 	<select name="number_to_roll">
 	<?php for ($i = 1; $i < 7; $i++) : ?>
-	    <option value="<?php echo $i; ?>"<?php echo $i; ?>/option>
+	    <option value="<?php echo $i; ?>"><?php echo $i; ?></option>
 	<?php endfor; ?>
         </select><br>
 
